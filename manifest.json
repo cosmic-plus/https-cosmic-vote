@@ -1,0 +1,19 @@
+{
+  "name": "Cosmic Link",
+  "short_name": "Cosmic Link",
+  "theme_color": "#ffffff",
+  "background_color": "#f0f8ff",
+  "display": "browser",
+  "icons": [
+    {
+      "src": "icons/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

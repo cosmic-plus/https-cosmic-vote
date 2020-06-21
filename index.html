@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="
+    form-action 'none';
+    default-src 'none';
+    script-src 'self';
+    style-src 'self';
+    font-src 'self';
+    img-src 'self' data:;
+    manifest-src 'self';
+    frame-src
+      https://cosmic.link
+      https://api.cosmic.link
+      https://stellar-authenticator.org
+    ;
+    connect-src *;
+  ">
+
+  <!-- Preload resources -->
+  <script src="stellar-sdk.js" defer></script>
+  <script src="index.js" defer></script>
+
+  <link rel="preload" href="index.css" as="style">
+  <link rel="preload" href="fonts/source-sans-pro.woff2" as="font" type="font/woff2"
+        crossorigin>
+  <link rel="preload" href="fonts/roboto-slab.woff2" as="font" type="font/woff2"
+        crossorigin>
+
+  <title>Cosmic.vote ~ Get ready for the next level!</title>
+  <meta property="og:title"
+    content="Cosmic.vote ~ Get ready for the next level!">
+  <meta property="og:description" name="description"
+    content="Cosmic.vote implements the first building blocks for decentralized organizations on Stellar">
+
+  <!-- <meta property="og:image" content="https://cosmic.vote/icons/512x512.png"> -->
+  <!-- <meta property="og:image:height" content="512"> -->
+  <!-- <meta property="og:image:width" content="512"> -->
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="msapplication-config" content="browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- <link rel="icon" type="image/png" sizes="16x16" href="icons/16x16.png"> -->
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="icons/32x32.png"> -->
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch.png"> -->
+  <!-- <link rel="mask-icon" href="icons/safari.svg" color="#5bbad5"> -->
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+  <div class="Loading">
+    <span class="Spinner"></span>
+    <span class="Spinner"></span>
+    <span class="Spinner"></span>
+  </div>
+
+  <noscript>
+    Cosmic.vote requires JavaScript... XXX:()
+  </noscript>
+
+</body>
+</html>

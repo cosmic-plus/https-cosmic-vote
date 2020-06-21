@@ -1,0 +1,12 @@
+{
+  "name": "",
+  "description": "The Cosmic.vote website",
+  "authors": [ "MisterTicot" ],
+  "homepage": "https://cosmic.vote",
+  "licence": "MIT",
+  "keywords": [],
+  "main": "cosmic-vote.js",
+  "ignore": [ ".*", "package-lock.json" ],
+  "dependencies": {}
+}
+
