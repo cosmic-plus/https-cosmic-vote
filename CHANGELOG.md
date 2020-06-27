@@ -18,6 +18,24 @@ Versioning](https://semver.org/spec/v2.0.0.html)**. Version syntax is
 backward-compatibility and can be updated to without risk of breakage. For major
 releases, please check this changelog before upgrading.
 
+## 1.0.0-beta.2 - 2020-06-27
+
+### Added
+
+- UI: Tell when the contract is being loaded.
+- UI: Keep results in sync with the ledger.
+- UI: Redirect to results once vote has been validated.
+- UI: Display contract time-related parameters.
+
+### Fixed
+
+- Meta: Ensure stellar.toml is served.
+- Style: Fix unwanted "bumping" effect on buttons.
+- Style: Fix mobile tab selector arrow & width.
+- Style: Fix buttons vertical align.
+- Style: Fix mobile display of results.
+- UI: Fix syncing after posting a new poll.
+
 ## 1.0.0-beta.1 - 2020-06-21
 
 Initial release.
