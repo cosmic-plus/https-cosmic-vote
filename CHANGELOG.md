@@ -18,6 +18,22 @@ Versioning](https://semver.org/spec/v2.0.0.html)**. Version syntax is
 backward-compatibility and can be updated to without risk of breakage. For major
 releases, please check this changelog before upgrading.
 
+## 1.0.0-beta.4 - 2020-07-08
+
+### Added
+
+- Meta: Setup favicons & social preview.
+- UI: Add explanations for 'New' & 'Browse' tabs.
+
+### Changed
+
+- UI: Switch to Cosmic.link v2. It is now possible to select 'Test Account'
+  directly in the Cosmic.link signing methods list.
+
+### Fixed
+
+- UI: Fix a couple of sentences.
+
 ## 1.0.0-beta.3 - 2020-07-05
 
 ### Added

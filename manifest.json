@@ -1,8 +1,8 @@
 {
-  "name": "Cosmic Link",
-  "short_name": "Cosmic Link",
-  "theme_color": "#ffffff",
-  "background_color": "#f0f8ff",
+  "name": "Cosmic.vote",
+  "short_name": "Cosmic.vote",
+  "theme_color": "#001738",
+  "background_color": "#daeeff",
   "display": "browser",
   "icons": [
     {
