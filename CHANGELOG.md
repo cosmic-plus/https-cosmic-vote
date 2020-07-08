@@ -18,6 +18,13 @@ Versioning](https://semver.org/spec/v2.0.0.html)**. Version syntax is
 backward-compatibility and can be updated to without risk of breakage. For major
 releases, please check this changelog before upgrading.
 
+## 1.0.0-beta.5 - 2020-07-08
+
+### Changed
+
+- Logic: Temporarily disable polls list auto-update. Running multiple streams
+  leads to poor network performance.
+
 ## 1.0.0-beta.4 - 2020-07-08
 
 ### Added
