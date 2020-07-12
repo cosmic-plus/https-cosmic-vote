@@ -18,6 +18,31 @@ Versioning](https://semver.org/spec/v2.0.0.html)**. Version syntax is
 backward-compatibility and can be updated to without risk of breakage. For major
 releases, please check this changelog before upgrading.
 
+## 1.0.0-beta.6 - 2020-07-12
+
+### Added
+
+- Meta: Provide embeddable micro-frontends. Any Cosmic.vote view can now be
+  embedded into third-party websites by using an iframe pointing to its address.
+  When embedded, Cosmic.vote only displays the desired tab content, not the full
+  interface. ([Example](https://codepen.io/cosmic-plus/full/NWxMEvW))
+- UI: Add public network support (All).
+
+### Changed
+
+- Meta: Ensure URL<->content consistency (All).
+- UI: Make "Listing" setting a yes/no question (New Poll). − Thanks [@OrbitLens]
+- UI: Improve hints (New Poll). − Thanks [@OrbitLens]
+- UI: Rename the "Indifferent" grade into "Undecided". (All)
+
+### Fixed
+
+- Logic: Fix votes streaming on contract switching (Results).
+- Logic: Create account using the minimum required balance (New Poll).
+- UI: Fix polls list auto-update (Browse).
+- UI: Fix table scrolling on mobile (Browse).
+- UI: Fix inconsistent consensus confirmation (Vote).
+
 ## 1.0.0-beta.5 - 2020-07-08
 
 ### Changed
