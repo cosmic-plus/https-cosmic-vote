@@ -18,6 +18,33 @@ Versioning](https://semver.org/spec/v2.0.0.html)**. Version syntax is
 backward-compatibility and can be updated to without risk of breakage. For major
 releases, please check this changelog before upgrading.
 
+## 1.0.0-beta.7 - 2020-07-19
+
+### Added
+
+- Documentation: Add an image to exemplify vote counting. (Results)
+- Style: Outline majority grade (Results).
+- UI: Add timebound contracts (New, Results).
+- UI: Enforce form requirements (New).
+- UI: Add share button (All).
+
+### Changed
+
+- UI: Don't display <aside> explanations in embeds. (All)
+- UI: Improve "Open since X" time precision. Now support
+  seconds/minutes/hours/days/months/years. (Results)
+- UI: Hide advanced settings (New).
+- UI: Make title mandatory (New).
+
+### Fixed
+
+- Meta: Fix missing favicon.
+- UI: Fix "Open since NaN" bug (Results). This happened after creating a new
+  poll.
+- UI: Make sure last candidate is not skipped by error (New).
+- UI: Fix view poll inbox link (Browse). (Regression introduced with
+  1.0.0-beta.6)
+
 ## 1.0.0-beta.6 - 2020-07-12
 
 ### Added
@@ -104,3 +131,5 @@ releases, please check this changelog before upgrading.
 ## 1.0.0-beta.1 - 2020-06-21
 
 Initial release.
+
+[@orbitlens]: https://keybase.io/orbitlens
