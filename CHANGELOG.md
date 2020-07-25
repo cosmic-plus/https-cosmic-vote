@@ -18,6 +18,45 @@ Versioning](https://semver.org/spec/v2.0.0.html)**. Version syntax is
 backward-compatibility and can be updated to without risk of breakage. For major
 releases, please check this changelog before upgrading.
 
+## 1.0.0-beta.8 - 2020-07-25
+
+### Added
+
+- API: Add support for custom pollsInbox.
+- Documentation: Link the article about Majority Judgment. ([available
+  here](https://medium.com/cosmic-plus/cosmic-vote-1-introducing-majority-judgment-84a250380695?source=collection_home---4------0-----------------------))
+- Meta: Add support for richlink preview.
+- UI: Add vote editing.
+- UI: Display the poll conditions (Vote).
+- UI: Add "no vote editing" option (New, Vote).
+- UI: Add filtering voters by holded asset.
+
+### Changed
+
+- API: Set the title max length to 56 characters.
+- Meta: Keep images in browser cache. This optimizes the loading delay.
+- Style: Polish form hints (New).
+- Style: Improve readability on mobile.
+- UI: Tell that closing time is in local time (New).
+- UI: Display since how long a poll is closed (Results).
+- UI: Automatically close side-frame (Vote, New). This detects when the
+  transaction have been submitted from another device using QRcode, and trigger
+  the next UX step accordingly.
+- UI: Set default polls inbox to `list*cosmic.vote` (Browse). So far, the app
+  were using the equivalent pubkey since federated address were not supported.
+- UI: Set 'Stellar Public' as the default network.
+- UI: Show expiration instead of number of votes (Browse).
+
+### Fixed
+
+- Style: Fix "Advanced Settings" chevron (New).
+- Style: Fix the display of long candidate names.
+- UI: Hide voting button until contract is loaded (Vote).
+- UI: Prevent AdBlock blocking of share button.
+- UI: Prevent polls that have a past maxTime (New).
+- UI: Prevent votes once poll is closed (Vote). _Note:_ Votes posted after
+  contract maxTime don't count anyway, this is simply a convenience UX feature.
+
 ## 1.0.0-beta.7 - 2020-07-19
 
 ### Added
